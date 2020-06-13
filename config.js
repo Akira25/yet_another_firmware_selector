@@ -7,8 +7,11 @@ var config = {
   // Files to get data from
   versions: {
   //'SNAPSHOT': '/api/names/SNAPSHOT', // when using sasu backend
+    'hedy-1.0.6': 'misc/names-19.07.1.json',
+    'hedy-1.0.6_fw': 'misc/names-19.07.1.json',
     'gonzo-1.1.0': 'misc/names-SNAPSHOT.json',
-    'hedy-1.0.4': 'misc/names-19.07.1.json'
+    'gonzo-1.1.0_fw': 'misc/names-SNAPSHOT.json',
+    'OpenWRT 19.07.1': 'misc/names-19.07.1.json'
   },
   // Build custom images
   // See https://github.com/aparcar/asu
