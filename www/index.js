@@ -1,3 +1,5 @@
+/* global translations, config */
+/* exported build_asu_request, init */
 
 var current_model = {};
 
@@ -87,7 +89,7 @@ function build_asu_request() {
         break;
       case 202:
         showStatus('tr-check-again');
-        setTimeout(_ => { build_asu_request() }, 5000);
+        setTimeout(() => { build_asu_request() }, 5000);
         break;
       case 400: // bad request
       case 422: // bad package
@@ -115,7 +117,7 @@ function setupSelectList(select, items, onselection) {
     select.appendChild(option);
   }
 
-  select.addEventListener('change', e => {
+  select.addEventListener('change', () => {
     onselection(items[select.selectedIndex]);
   });
 
@@ -141,7 +143,7 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 
   items.sort(collator.compare);
 
-  input.oninput = function(e) {
+  input.oninput = function () {
     onbegin();
 
     var offset = 0;
@@ -191,19 +193,19 @@ function setupAutocompleteList(input, items, as_list, onbegin, onend) {
 
       c += 1;
       if (c >= 15) {
-        var div = document.createElement('DIV');
+        let div = document.createElement('DIV');
         div.innerHTML = '...';
         list.appendChild(div);
         break;
       } else {
-        var div = document.createElement('DIV');
+        let div = document.createElement('DIV');
         // make the matching letters bold:
         div.innerHTML = item.substr(0, j)
           + '<strong>' + item.substr(j, value.length) + '</strong>'
           + item.substr(j + value.length)
           + '<input type="hidden" value="' + item + '">';
 
-        div.addEventListener('click', function(e) {
+        div.addEventListener('click', function() {
           // include selected value
           var selected = this.getElementsByTagName('input')[0].value;
           if (as_list) {
@@ -289,15 +291,15 @@ function updatePackageList(version, target) {
   fetch(config.asu_url + '/' + config.versions[version] + '/' + target +  '/index.json')
   .then(response => response.json())
   .then(all_packages => {
-    setupAutocompleteList($('#packages'), all_packages, true, _ => {}, textarea => {
+    setupAutocompleteList($('#packages'), all_packages, true, () => {}, textarea => {
       textarea.value = split(textarea.value)
         // make list unique, ignore minus
         .filter((value, index, self) => {
-          var i = self.indexOf(value.replace(/^\-/, ''));
+          var i = self.indexOf(value.replace(/^-/, ''));
           return (i === index) || (i < 0);
         })
         // limit to available packages, ignore minus
-        .filter((value, index) => all_packages.indexOf(value.replace(/^\-/, '')) !== -1)
+        .filter((value, index) => all_packages.indexOf(value.replace(/^-/, '')) !== -1)
         .join(' ');
     });
   });

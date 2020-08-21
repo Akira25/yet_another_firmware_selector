@@ -1,3 +1,4 @@
+/* exported translations */
 
 var translations = {
 	'ca': {
