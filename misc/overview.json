@@ -1,0 +1,1572 @@
+{
+  "download_url": "http://dev-firmware.pcfw.eu/images/falter_19.07.4/targets/{target}",
+  "models": {
+    "8devices Carambola2": {
+      "id": "8dev_carambola2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-8dev_carambola2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "AVM FRITZ!Box 4020": {
+      "id": "avm_fritz4020",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-avm_fritz4020-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "AVM FRITZ!WLAN Repeater 300E": {
+      "id": "avm_fritz300e",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-avm_fritz300e-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Aruba AP-105": {
+      "id": "aruba_ap-105",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-aruba_ap-105-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Buffalo BHR-4GRV": {
+      "id": "buffalo_bhr-4grv",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-tftp.bin",
+          "type": "tftp"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_bhr-4grv-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Buffalo BHR-4GRV2": {
+      "id": "buffalo_bhr-4grv2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-buffalo_bhr-4grv2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Buffalo WZR-HP-AG300H": {
+      "id": "buffalo_wzr-hp-ag300h",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-tftp.bin",
+          "type": "tftp"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-ag300h-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Buffalo WZR-HP-G302H A1A0": {
+      "id": "buffalo_wzr-hp-g302h-a1a0",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-tftp.bin",
+          "type": "tftp"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-g302h-a1a0-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Buffalo WZR-HP-G450H/WZR-450HP": {
+      "id": "buffalo_wzr-hp-g450h",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-tftp.bin",
+          "type": "tftp"
+        },
+        {
+          "name": "openwrt-ath79-generic-buffalo_wzr-hp-g450h-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "COMFAST CF-E110N v2": {
+      "id": "comfast_cf-e110n-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-comfast_cf-e110n-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "COMFAST CF-E120A v3": {
+      "id": "comfast_cf-e120a-v3",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-comfast_cf-e120a-v3-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "COMFAST CF-E5/E7": {
+      "id": "comfast_cf-e5",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-comfast_cf-e5-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "D-LINK DIR-825 C1": {
+      "id": "dlink_dir-825-c1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-dlink_dir-825-c1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "D-LINK DIR-835 A1": {
+      "id": "dlink_dir-835-a1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-dlink_dir-835-a1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-dlink_dir-835-a1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "D-LINK DIR-859 A1": {
+      "id": "dlink_dir-859-a1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-dlink_dir-859-a1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-dlink_dir-859-a1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "ELECOM WRC-1750GHBK2-I/C": {
+      "id": "elecom_wrc-1750ghbk2-i",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-elecom_wrc-1750ghbk2-i-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "ELECOM WRC-300GHBK2-I": {
+      "id": "elecom_wrc-300ghbk2-i",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-elecom_wrc-300ghbk2-i-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Embedded Wireless Dorin": {
+      "id": "embeddedwireless_dorin",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-embeddedwireless_dorin-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "EnGenius ECB1750": {
+      "id": "engenius_ecb1750",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-engenius_ecb1750-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "EnGenius EPG5000": {
+      "id": "engenius_epg5000",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-engenius_epg5000-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-engenius_epg5000-squashfs-factory.dlf",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "EnGenius EWS511AP": {
+      "id": "engenius_ews511ap",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-engenius_ews511ap-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "GL.iNet GL-AR150": {
+      "id": "glinet_gl-ar150",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-glinet_gl-ar150-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "GL.iNet GL-AR300M-Lite": {
+      "id": "glinet_gl-ar300m-lite",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-glinet_gl-ar300m-lite-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "GL.iNet GL-X750": {
+      "id": "glinet_gl-x750",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-glinet_gl-x750-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "I-O DATA ETG3-R": {
+      "id": "iodata_etg3-r",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-iodata_etg3-r-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "I-O DATA WN-AC1167DGR": {
+      "id": "iodata_wn-ac1167dgr",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ac1167dgr-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "I-O DATA WN-AC1600DGR": {
+      "id": "iodata_wn-ac1600dgr",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "I-O DATA WN-AC1600DGR2": {
+      "id": "iodata_wn-ac1600dgr2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ac1600dgr2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "I-O DATA WN-AG300DGR": {
+      "id": "iodata_wn-ag300dgr",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-iodata_wn-ag300dgr-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "LibreRouter v1": {
+      "id": "librerouter_librerouter-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-librerouter_librerouter-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "NEC Aterm WG1200CR": {
+      "id": "nec_wg1200cr",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-nec_wg1200cr-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "NEC Aterm WG800HP": {
+      "id": "nec_wg800hp",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-nec_wg800hp-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "NETGEAR EX6400": {
+      "id": "netgear_ex6400",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-netgear_ex6400-squashfs-factory.img",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-netgear_ex6400-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "NETGEAR EX7300": {
+      "id": "netgear_ex7300",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-netgear_ex7300-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-netgear_ex7300-squashfs-factory.img",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "NETGEAR WNDR3700": {
+      "id": "netgear_wndr3700",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory.img",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-factory-NA.img",
+          "type": "factory-NA"
+        },
+        {
+          "name": "openwrt-ath79-generic-netgear_wndr3700-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "NETGEAR WNDR3700v2": {
+      "id": "netgear_wndr3700v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-netgear_wndr3700v2-squashfs-factory.img",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-netgear_wndr3700v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "NETGEAR WNDR3800": {
+      "id": "netgear_wndr3800",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-netgear_wndr3800-squashfs-factory.img",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-netgear_wndr3800-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "OCEDO Koala": {
+      "id": "ocedo_koala",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ocedo_koala-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "OCEDO Raccoon": {
+      "id": "ocedo_raccoon",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ocedo_raccoon-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "OCEDO Ursus": {
+      "id": "ocedo_ursus",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ocedo_ursus-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "OpenMesh OM5P-AC v2": {
+      "id": "openmesh_om5p-ac-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-openmesh_om5p-ac-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Phicomm K2T": {
+      "id": "phicomm_k2t",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-phicomm_k2t-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Pisen WMM003N (Cloud Easy Power)": {
+      "id": "pisen_wmm003n",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-pisen_wmm003n-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-pisen_wmm003n-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "PowerCloud Systems CAP324": {
+      "id": "pcs_cap324",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-pcs_cap324-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "PowerCloud Systems CR3000": {
+      "id": "pcs_cr3000",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-pcs_cr3000-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "PowerCloud Systems CR5000": {
+      "id": "pcs_cr5000",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-pcs_cr5000-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "ROSINSON WR818": {
+      "id": "rosinson_wr818",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-rosinson_wr818-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer A7 v5": {
+      "id": "tplink_archer-a7-v5",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-a7-v5-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-a7-v5-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C2 v3": {
+      "id": "tplink_archer-c2-v3",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c2-v3-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c2-v3-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C25 v1": {
+      "id": "tplink_archer-c25-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c25-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c25-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C5 v1": {
+      "id": "tplink_archer-c5-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c5-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c5-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C58 v1": {
+      "id": "tplink_archer-c58-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c58-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C59 v1": {
+      "id": "tplink_archer-c59-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c59-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c59-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C6 v2": {
+      "id": "tplink_archer-c6-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c6-v2-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c6-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C60 v1": {
+      "id": "tplink_archer-c60-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c60-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c60-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C60 v2": {
+      "id": "tplink_archer-c60-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c60-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c60-v2-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C60 v3": {
+      "id": "tplink_archer-c60-v3",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c60-v3-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c60-v3-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C7 v1": {
+      "id": "tplink_archer-c7-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C7 v2": {
+      "id": "tplink_archer-c7-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-us.bin",
+          "type": "factory-us"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory-eu.bin",
+          "type": "factory-eu"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v2-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C7 v4": {
+      "id": "tplink_archer-c7-v4",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v4-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v4-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer C7 v5": {
+      "id": "tplink_archer-c7-v5",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v5-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-c7-v5-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link Archer D50 v1": {
+      "id": "tplink_archer-d50-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_archer-d50-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link CPE210 v2": {
+      "id": "tplink_cpe210-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_cpe210-v2-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link CPE210 v3": {
+      "id": "tplink_cpe210-v3",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_cpe210-v3-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link CPE220 v3": {
+      "id": "tplink_cpe220-v3",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_cpe220-v3-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link RE350K v1": {
+      "id": "tplink_re350k-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_re350k-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_re350k-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WDR3500 v1": {
+      "id": "tplink_tl-wdr3500-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr3500-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr3500-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WDR3600 v1": {
+      "id": "tplink_tl-wdr3600-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr3600-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WDR4300 v1": {
+      "id": "tplink_tl-wdr4300-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4300-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4300-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WDR4300 v1 (IL)": {
+      "id": "tplink_tl-wdr4300-v1-il",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4300-v1-il-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4300-v1-il-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WDR4310 v1": {
+      "id": "tplink_tl-wdr4310-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4310-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4310-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WDR4900 v2": {
+      "id": "tplink_tl-wdr4900-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4900-v2-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wdr4900-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR1043N v5": {
+      "id": "tplink_tl-wr1043n-v5",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043n-v5-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043n-v5-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR1043N/ND v1": {
+      "id": "tplink_tl-wr1043nd-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR1043N/ND v2": {
+      "id": "tplink_tl-wr1043nd-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v2-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR1043N/ND v3": {
+      "id": "tplink_tl-wr1043nd-v3",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v3-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v3-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR1043N/ND v4": {
+      "id": "tplink_tl-wr1043nd-v4",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr1043nd-v4-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR2543N/ND v1": {
+      "id": "tplink_tl-wr2543-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr2543-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr2543-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR710N v1": {
+      "id": "tplink_tl-wr710n-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr710n-v1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR710N v2.1": {
+      "id": "tplink_tl-wr710n-v2.1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr710n-v2.1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr710n-v2.1-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR810N v1": {
+      "id": "tplink_tl-wr810n-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr810n-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR810N v2": {
+      "id": "tplink_tl-wr810n-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr810n-v2-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr810n-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR842N v3": {
+      "id": "tplink_tl-wr842n-v3",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr842n-v3-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR842N/ND v1": {
+      "id": "tplink_tl-wr842n-v1",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr842n-v1-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr842n-v1-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "TP-Link TL-WR842N/ND v2": {
+      "id": "tplink_tl-wr842n-v2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr842n-v2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-tplink_tl-wr842n-v2-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti AirRouter": {
+      "id": "ubnt_airrouter",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_airrouter-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Bullet-M": {
+      "id": "ubnt_bullet-m",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_bullet-m-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_bullet-m-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Bullet-M (XW)": {
+      "id": "ubnt_bullet-m-xw",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_bullet-m-xw-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_bullet-m-xw-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti LiteAP ac (LAP-120)": {
+      "id": "ubnt_lap-120",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_lap-120-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_lap-120-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti NanoBeam AC": {
+      "id": "ubnt_nanobeam-ac",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanobeam-ac-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanobeam-ac-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Nanostation AC": {
+      "id": "ubnt_nanostation-ac",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-ac-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Nanostation AC loco": {
+      "id": "ubnt_nanostation-ac-loco",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-ac-loco-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Nanostation Loco M": {
+      "id": "ubnt_nanostation-loco-m",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-loco-m-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-loco-m-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Nanostation Loco M (XW)": {
+      "id": "ubnt_nanostation-loco-m-xw",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-loco-m-xw-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-loco-m-xw-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Nanostation M": {
+      "id": "ubnt_nanostation-m",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-m-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-m-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Nanostation M (XW)": {
+      "id": "ubnt_nanostation-m-xw",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_nanostation-m-xw-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Picostation M": {
+      "id": "ubnt_picostation-m",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_picostation-m-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_picostation-m-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti Rocket-M": {
+      "id": "ubnt_rocket-m",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_rocket-m-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_rocket-m-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti RouterStation": {
+      "id": "ubnt_routerstation",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_routerstation-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_routerstation-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti RouterStation Pro": {
+      "id": "ubnt_routerstation-pro",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_routerstation-pro-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_routerstation-pro-squashfs-factory.bin",
+          "type": "factory"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti UniFi": {
+      "id": "ubnt_unifi",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_unifi-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-ubnt_unifi-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti UniFi AC-LR": {
+      "id": "ubnt_unifiac-lr",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_unifiac-lr-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti UniFi AC-Lite": {
+      "id": "ubnt_unifiac-lite",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_unifiac-lite-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti UniFi AC-Mesh": {
+      "id": "ubnt_unifiac-mesh",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_unifiac-mesh-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti UniFi AC-Mesh Pro": {
+      "id": "ubnt_unifiac-mesh-pro",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_unifiac-mesh-pro-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti UniFi AC-Pro": {
+      "id": "ubnt_unifiac-pro",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_unifiac-pro-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Ubiquiti airCube ISP": {
+      "id": "ubnt_acb-isp",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-ubnt_acb-isp-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Western Digital My Net N750": {
+      "id": "wd_mynet-n750",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-wd_mynet-n750-squashfs-factory.bin",
+          "type": "factory"
+        },
+        {
+          "name": "openwrt-ath79-generic-wd_mynet-n750-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Western Digital My Net Wi-Fi Range Extender": {
+      "id": "wd_mynet-wifi-rangeextender",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-wd_mynet-wifi-rangeextender-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Winchannel WB2000": {
+      "id": "winchannel_wb2000",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-winchannel_wb2000-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "Xiaomi Mi Router 4Q": {
+      "id": "xiaomi_mi-router-4q",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-xiaomi_mi-router-4q-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "YunCore A770": {
+      "id": "yuncore_a770",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-yuncore_a770-squashfs-tftp.bin",
+          "type": "tftp"
+        },
+        {
+          "name": "openwrt-ath79-generic-yuncore_a770-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "YunCore A782": {
+      "id": "yuncore_a782",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-yuncore_a782-squashfs-tftp.bin",
+          "type": "tftp"
+        },
+        {
+          "name": "openwrt-ath79-generic-yuncore_a782-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "YunCore XD4200": {
+      "id": "yuncore_xd4200",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        },
+        {
+          "name": "openwrt-ath79-generic-yuncore_xd4200-squashfs-tftp.bin",
+          "type": "tftp"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "ZBT WD323": {
+      "id": "zbtlink_zbt-wd323",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-zbtlink_zbt-wd323-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "devolo WiFi pro 1200e": {
+      "id": "devolo_dvl1200e",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-devolo_dvl1200e-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "devolo WiFi pro 1200i": {
+      "id": "devolo_dvl1200i",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-devolo_dvl1200i-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "devolo WiFi pro 1750c": {
+      "id": "devolo_dvl1750c",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-devolo_dvl1750c-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "devolo WiFi pro 1750e": {
+      "id": "devolo_dvl1750e",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-devolo_dvl1750e-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "devolo WiFi pro 1750i": {
+      "id": "devolo_dvl1750i",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-devolo_dvl1750i-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "devolo WiFi pro 1750x": {
+      "id": "devolo_dvl1750x",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-devolo_dvl1750x-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "eTactica EG200": {
+      "id": "etactica_eg200",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-etactica_eg200-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    },
+    "jjPlus JA76PF2": {
+      "id": "jjplus_ja76pf2",
+      "images": [
+        {
+          "name": "openwrt-ath79-generic-jjplus_ja76pf2-squashfs-sysupgrade.bin",
+          "type": "sysupgrade"
+        }
+      ],
+      "target": "ath79/generic"
+    }
+  },
+  "version_code": "r11208-ce6496d796"
+}

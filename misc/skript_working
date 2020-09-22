@@ -1,0 +1,1 @@
+./collect.py --formatted merge ../images --download-url 'http://dev-firmware.pcfw.eu/images/falter_19.07.4/targets/{target}' > overview.json
